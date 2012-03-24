@@ -2,3 +2,4 @@
 /logs
 /config/deploy.rb
 /Capfile
+.sass-cache
