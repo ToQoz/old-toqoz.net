@@ -1,1 +1,1 @@
-# ToQoz.net
+# [ToQoz.net](http://toqoz.net)
