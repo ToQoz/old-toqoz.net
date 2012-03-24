@@ -1,0 +1,89 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.2.2)
+      activesupport (= 3.2.2)
+      builder (~> 3.0.0)
+    activesupport (3.2.2)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    bson (1.6.1)
+    bson_ext (1.6.1)
+      bson (~> 1.6.1)
+    builder (3.0.0)
+    capistrano (2.11.2)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    closure-compiler (1.1.6)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.2.0)
+    execjs (1.3.0)
+      multi_json (~> 1.0)
+    haml (3.1.4)
+    highline (1.6.11)
+    hike (1.2.1)
+    i18n (0.6.0)
+    kgio (2.7.4)
+    mongo (1.6.1)
+      bson (~> 1.6.1)
+    mongoid (2.4.7)
+      activemodel (~> 3.1)
+      mongo (~> 1.3)
+      tzinfo (~> 0.3.22)
+    multi_json (1.1.0)
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-sftp (2.0.5)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.3.0)
+    net-ssh-gateway (1.1.0)
+      net-ssh (>= 1.99.1)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    railsless-deploy (1.0.2)
+    raindrops (0.8.0)
+    sass (3.1.15)
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sprockets (2.3.1)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-helpers (0.3.0)
+      sprockets (~> 2.0)
+    sprockets-sass (0.7.0)
+      sprockets (~> 2.0)
+      tilt (~> 1.1)
+    tilt (1.3.3)
+    tzinfo (0.3.32)
+    unicorn (4.2.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  capistrano
+  closure-compiler
+  coffee-script
+  haml
+  mongoid (~> 2.4.0)
+  railsless-deploy
+  sass
+  sinatra (~> 1.3.2)
+  sprockets (~> 2.0)
+  sprockets-helpers (~> 0.3.0)
+  sprockets-sass
+  unicorn

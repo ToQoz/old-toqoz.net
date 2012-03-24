@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>ToQoz.net</title>
+  <link href="./stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="./stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>ToQoz.net</h1>
+    <img src="http://pic.toqoz.net/288fc361ab8b2293b21daee2cad4e1c363fe05fc.png" width=200/>
+    <h2>Profile</h2>
+    <dl class="profile">
+      <dt>Name</dt>
+      <dd>Takatoshi Matsumoto</dd>
+      <dt>Mail</dt>
+      <dd>toqoz403@gmail.com</dd>
+      
+      <dt>Skype</dt>
+      <dd>ToQoz (tm.taka)</dd>
+    </dl>
+    <h2>Activity</h2>
+    <ul>
+      <dt>Twitter</dt>
+      <dd><a href="https://twitter.com/#!/ToQoz">@ToQoz</a></dd>
+      <dt>Facebook</dt>
+      <dd><a href="http://www.facebook.com/takatoshi.m">Takatoshi Matsumoto</a></dd>
+      <dt>Tumblr</dt>
+      <dd><a href="http://tumblr.toqoz.net">ToQoz notes</a></dd>
+      <dt>Blog</dt>
+      <dd><a href="http://d.hatena.ne.jp/ToQoz">頭骨Blog (Hatena Diary)</a></dd>
+      <dt>Github</dt>
+      <dd><a href="http://github.com/ToQoz">ToQoz</a></dd>
+      <dt>Gist</dt>
+      <dd><a href="http://gist.github.com/ToQoz">ToQoz</a></dd>
+    </ul>
+    <h2>Created</h2>
+    <ul>
+      <li><a href="https://github.com/ToQoz/Pyblr">Pyblr</a><span class="notes">Pyblr is a simple Tumblr API v2 library written in python. Original(Ruby) <a href="https://github.com/mitukiii/tumblife-for-ruby">mitukiii/tumblife-for-ruby</a></span></li>
+      <li><a href="http://twitter.toqoz.net">頭骨API</a><span class="notes">post to Twitter as ToQoz</span></li>
+      <li><a href="http://pic.toqoz.net">pic.toqoz.net</a><span class="notes">my favorite pictures</span></li>
+      <li><a href="http://eventsurfing.herokuapp.com">EventSurfing</a><span class="notes">the service is searches the event in ATND</span></li>
+    </ul>
+    <h2>Interested in</h2>
+    <ul>
+      <li>JavaScript (Server Side and Client Side)</li>
+      <li>Ruby</li>
+      <li>Padrino</li>
+      <li>Python</li>
+      <li>Objective-C</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Nginx</li>
+      <li>MongoDB</li>
+      <li>Vim</li>
+      <li>(Haskell)</li>
+    </ul>
+    <h2>Desired ones</h2>
+      <a href="http://www.amazon.co.jp/registry/wishlist/3F1SFMFHC5VV3/ref=cm_wl_rlist_go_o">Amazon wish list</a>
+  </body>
+</html>
